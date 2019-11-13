@@ -1,3 +1,4 @@
+
 /*Mehrate 
  * This  program prompt the user to choose the file, 
  * and read value and sort it, from 
@@ -153,7 +154,7 @@ public class RecursiveJavaFX2 extends Application {
 
 						text.add(scannerReader.nextInt());
 
-						Recursive.bubbleSortList(text);
+						recursive2.bubbleSortList(text);
 
 					}
 					stringBuffer.append(text);
@@ -191,4 +192,3 @@ public class RecursiveJavaFX2 extends Application {
 	}
 
 }
-
